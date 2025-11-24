@@ -123,7 +123,7 @@
             bindings = <
 &kp TILDE       &kp N7        &kp N8        &kp N9        &kp PG_DN     &kp PG_UP                                   &mmv MOVE_UP                     &kp HOME            &kp END   &kp UP    &kp DEL    &trans           &kp BACKSPACE
 &mt LCTRL TAB   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp C_VOL_DN  &kp C_VOL_UP                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp K_CONTEXT_MENU  &kp LEFT  &kp DOWN  &kp RIGHT  &kp INS          &kp C_MUTE
-&kp LEFT_SHIFT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp C_BRI_DN  &kp C_BRI_UP  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans              &trans    &trans    &trans     &kp PRINTSCREEN  &trans
+&kp LEFT_SHIFT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp C_BRI_DN  &kp C_BRI_UP  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans              &trans    &trans    &trans     &kp PRINTSCREEN  &kp F20
                                             &kp NUMBER_0  &kp PERIOD    &kp COMMA                                                                    &trans              &trans    &trans
             >;
 
@@ -134,8 +134,8 @@
             display-name = "symbol";
             bindings = <
 &kp GRAVE         &kp F1  &kp F2  &kp F3  &kp CARET  &kp DOLLAR                            &mmv MOVE_UP                     &trans   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS             &kp EQUAL  &kp DELETE
-&mt LCTRL DELETE  &kp F4  &kp F5  &kp F6  &kp F12    &trans                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp NON_US_BACKSLASH  &trans     &kp C_VOL_UP
-&kp LEFT_SHIFT    &kp F7  &kp F8  &kp F9  &kp F10    &kp F11     &trans                    &mmv MOVE_DOWN                   &trans   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE              &trans     &kp C_BRIGHTNESS_INC
+&mt LCTRL DELETE  &kp F4  &kp F5  &kp F6  &kp F12    &trans                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp NON_US_BACKSLASH  &trans     &trans
+&kp LEFT_SHIFT    &kp F7  &kp F8  &kp F9  &kp F10    &kp F11     &trans                    &mmv MOVE_DOWN                   &trans   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE              &trans     &trans
                                   &trans  &trans     &trans                                                                 &kp RET  &trans                &trans
             >;
 
