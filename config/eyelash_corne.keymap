@@ -145,10 +145,10 @@
         extra_layer {
             display-name = "extra";
             bindings = <
-&rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI                    &trans          &bt BT_CLR_ALL  &bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &trans       &studio_unlock
-&trans           &rgb_ug RGB_EFR  &rgb_ug RGB_SPD  &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD            &trans  &trans  &trans  &trans          &trans      &trans      &trans      &trans       &trans
-&sys_reset       &bootloader      &trans           &trans           &trans           &trans           &trans            &trans          &trans          &trans      &trans      &trans      &bootloader  &sys_reset
-                                                   &trans           &trans           &trans                                             &trans          &trans      &trans
+&rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI                    &trans          &trans  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans       &studio_unlock
+&trans           &rgb_ug RGB_EFR  &rgb_ug RGB_SPD  &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD            &trans  &trans  &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans       &trans
+&sys_reset       &bootloader      &bt BT_CLR_ALL   &bt BT_CLR       &bt BT_PRV       &bt BT_NXT       &trans            &trans          &trans  &trans          &mkp MCLK       &trans           &bootloader  &sys_reset
+                                                   &trans           &trans           &trans                                             &trans  &trans          &trans
             >;
         };
     };
