@@ -109,10 +109,10 @@
         base_layer {
             display-name = "base";
             bindings = <
-&kp ESC         &kp Q             &kp W              &kp E                   &kp R                 &kp T                               &kp UP                &kp Y        &kp U                  &kp I                    &kp O              &kp P                          &kp BSPC
-&mt LCTRL TAB   &home_row LGUI A  &home_row LCTRL S  &home_row LEFT_SHIFT D  &home_row LEFT_ALT F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &home_row RIGHT_ALT J  &home_row RIGHT_SHIFT K  &home_row RCTRL L  &home_row RIGHT_GUI SEMICOLON  &kp SINGLE_QUOTE
-&kp LEFT_SHIFT  &kp Z             &kp X              &kp C                   &kp V                 &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M                  &kp COMMA                &kp DOT            &kp FSLH                       &mt RIGHT_SHIFT CAPSLOCK
-                                                     &kp LGUI                &mo 2                 &lt 3 SPACE                                               &lt 3 ENTER  &mo 1                  &kp SLASH
+&kp ESC                  &kp Q             &kp W              &kp E                   &kp R                 &kp T                                      &kp UP                &kp Y        &kp U                  &kp I                    &kp O              &kp P                          &kp BSPC
+&mt LCTRL TAB            &home_row LGUI A  &home_row LCTRL S  &home_row LEFT_SHIFT D  &home_row LEFT_ALT F  &kp G                            &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &home_row RIGHT_ALT J  &home_row RIGHT_SHIFT K  &home_row RCTRL L  &home_row RIGHT_GUI SEMICOLON  &mt RCTRL SINGLE_QUOTE
+&mt LEFT_SHIFT CAPSLOCK  &kp Z             &kp X              &kp C                   &kp V                 &kp B               &kp SPACE              &kp DOWN              &kp N        &kp M                  &kp COMMA                &kp DOT            &kp FSLH                       &mt RIGHT_SHIFT CAPSLOCK
+                                                              &kp LGUI                &mo 2                 &mt LEFT_ALT SPACE                                               &lt 3 ENTER  &mo 1                  &kp SLASH
             >;
 
             sensor-bindings = <&scroll_encoder>;
