@@ -133,10 +133,10 @@
         symbol_layer {
             display-name = "symbol";
             bindings = <
-&kp GRAVE         &kp F1   &kp F2   &kp F3  &kp F4  &kp F5                             &mmv MOVE_UP                     &trans          &trans     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DELETE  &kp BACKSPACE
-&mt LCTRL DELETE  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS       &kp EQUAL  &kp LBKT              &kp RBKT               &trans      &kp BSLH
-&kp LEFT_SHIFT    &kp F11  &kp F12  &trans  &trans  &trans   &trans                    &mmv MOVE_DOWN                   &kp UNDERSCORE  &kp PLUS   &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans      &kp PIPE
-                                    &trans  &trans  &trans                                                              &kp RET         &trans     &trans
+&kp GRAVE  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT                            &mmv MOVE_UP                     &kp CARET       &kp AMPERSAND  &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
+&kp F1     &kp F2           &kp F3       &kp F4    &kp F5      &kp F6                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS       &kp EQUAL      &none           &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BSLH
+&kp F7     &kp F8           &kp F9       &kp F10   &kp F11     &kp F12      &trans                    &mmv MOVE_DOWN                   &kp UNDERSCORE  &kp PLUS       &none           &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE
+                                         &trans    &trans      &trans                                                                  &kp RET         &trans         &kp LEFT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP K_VOLUME_DOWN>;
